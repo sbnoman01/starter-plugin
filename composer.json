@@ -1,0 +1,23 @@
+{
+  "name": "author-name/plugin-name-demo",
+  "description": "Setup descriptions related plugin",
+  "type": "wordpress-plugin",
+  "license": "NSTV1",
+  "autoload": {
+    "psr-4": {
+      "AuthorName\\PluginName\\": "includes/",
+      "AuthorName\\PluginName\\admin\\": "admin/",
+      "AuthorName\\PluginName\\frontend\\": "public/",
+      "AuthorName\\PluginName\\template\\": "template/",
+      "AuthorName\\PluginName\\extensions\\": "languages/"
+    }
+  },
+  "authors": [
+    {
+      "name": "wp_noman",
+      "email": "sbnoman27@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {}
+}
